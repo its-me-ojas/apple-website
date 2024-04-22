@@ -1,11 +1,17 @@
-
 import './App.css'
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import Highlights from "./components/Highlights.jsx";
 
 function App() {
 
-  return (
-   <h1 className="text-8xl font-bold underline">Hello World</h1>
-  )
+    return (
+        <main className="bg-black">
+            <Navbar/>
+            <Hero/>
+            <Highlights/>
+        </main>
+    )
 }
 
 export default App
